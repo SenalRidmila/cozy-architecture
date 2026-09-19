@@ -9,7 +9,7 @@ const services = [
     subtitle: 'Form Meets Function',
     description:
       'From concept sketches to construction drawings, we create stunning buildings that stand the test of time. Residential, commercial, and mixed-use — we design with purpose.',
-    image: '/6.jpeg',
+    image: '/Architect_design.jpeg',
     href: '/architecture-design',
   },
   {
@@ -18,7 +18,7 @@ const services = [
     subtitle: 'Spaces That Breathe',
     description:
       'Every material, texture, and light source is chosen with intent to create rooms that feel both luxurious and liveable.',
-    image: '/7.jpeg',
+    image: '/Interior_design.jpeg',
     href: '/interior-design',
   },
   {
@@ -27,7 +27,7 @@ const services = [
     subtitle: 'Nature, Designed',
     description:
       'Our landscape architects craft outdoor environments that harmonize with nature — lush gardens, water features, and outdoor living spaces.',
-    image: '/8.jpeg',
+    image: '/landascape.jpeg',
     href: '/landscaping',
   },
   {
@@ -36,7 +36,7 @@ const services = [
     subtitle: 'Ancient Wisdom',
     description:
       'We integrate Vastu principles into every design — aligning spaces with natural energy flows to promote harmony, prosperity, and well-being.',
-    image: '/9.jpeg',
+    image: '/Vastu.jpeg',
     href: '/vastu-shastra',
   },
 ];
@@ -44,7 +44,7 @@ const services = [
 export default function ServicesSection() {
   return (
     <section id="services" className="relative bg-[#f8f5f0] overflow-hidden">
-      
+
       {/* Top Spacer */}
       <div className="w-full h-[80px] lg:h-[120px]"></div>
 

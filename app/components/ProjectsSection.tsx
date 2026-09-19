@@ -6,10 +6,10 @@ import { X, ZoomIn } from 'lucide-react';
 
 const projects = [
   { src: '/1.jpeg', title: 'Villa Serenity', category: 'Residential', location: 'Colombo 07' },
-  { src: '/2.jpeg', title: 'The Horizon Tower', category: 'Commercial', location: 'Kandy' },
-  { src: '/3.jpeg', title: 'Garden Retreat', category: 'Landscaping', location: 'Galle' },
-  { src: '/4.jpeg', title: 'Zen Interiors', category: 'Interior Design', location: 'Colombo 03' },
-  { src: '/5.jpeg', title: 'Lakeside Manor', category: 'Residential', location: 'Negombo' },
+  { src: '/Horizon_tower.jpeg', title: 'The Horizon Tower', category: 'Commercial', location: 'Kandy' },
+  { src: '/Garden.jpeg', title: 'Garden Retreat', category: 'Landscaping', location: 'Galle' },
+  { src: '/zen.jpeg', title: 'Zen Interiors', category: 'Interior Design', location: 'Colombo 03' },
+  { src: '/Lakeside.jpeg', title: 'Lakeside Manor', category: 'Residential', location: 'Negombo' },
   { src: '/6.jpeg', title: 'Vastu Harmony Home', category: 'Vastu Shastra', location: 'Kurunegala' },
 ];
 
@@ -29,7 +29,7 @@ export default function ProjectsSection() {
       {/* Watermark Text Background ("OUR PORTFOLIO") */}
       <div className="absolute top-[100px] lg:top-[120px] left-1/2 -translate-x-1/2 z-0 pointer-events-none select-none">
         <h2 className="text-[80px] sm:text-[100px] md:text-[140px] lg:text-[170px] font-black text-gray-50 uppercase tracking-tighter whitespace-nowrap leading-none">
-          Our Portfolio
+          Our Projects
         </h2>
       </div>
 
@@ -39,7 +39,7 @@ export default function ProjectsSection() {
           {/* Header */}
           <div className="flex flex-col items-center text-center mb-10 lg:mb-12">
             <h3 className="text-2xl md:text-3xl font-extrabold text-gray-900 mb-3 uppercase tracking-widest">
-              Portfolio
+              Projects
             </h3>
             <h4 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#0d2b55] leading-snug">
               A curated selection of our <span className="text-[#B89947] italic font-light">finest work.</span>
